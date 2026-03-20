@@ -1,0 +1,27 @@
+
+body{
+    background-color: rgb(14, 14, 14);
+    font-family: arial, sans-serif;
+    overflow: hidden;
+}
+.err{
+    position: absolute;
+    margin: 40px 600px 500px 500px;
+    font-size: 150px;
+    color: rgb(150,150, 150);
+}
+.error{
+    margin: 200px 200px 500px 800px;
+    color: rgb(150,150, 150);
+}
+.error a{
+    color: rgb(150,150, 150);
+    text-decoration: none;
+    font-size: 20px;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 30px;
+}

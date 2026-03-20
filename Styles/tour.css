@@ -1,0 +1,157 @@
+body{
+    font-family: arial, sans-serif;
+    background-color: rgb(14, 14, 14);
+    margin: 0%;
+    color: rgb(150,150, 150);}
+.back{
+  background-color: rgb(44, 38, 38);
+    font-size: 40px;
+    color: rgb(150,150, 150);
+    padding: 15px; }
+.text-h{
+    background-image:url(просторы.png);
+    padding: 30px 20px 30px 20px;
+}
+.Text-h h1{
+font-size: 40px;
+}
+
+.kolvo{
+    display: inline-block;
+  width: 20%;
+  padding: 5px 2% ;
+  text-align: justify;
+  font-size: 20px;
+  margin: 5px 0px 0px 30px;
+  font-size: 14px;
+    font-style: italic;
+}
+.price{
+    text-align: right;
+    font-size: 20px;
+}
+.kolvo2{
+    display: inline-block;
+  width: 20%;
+  margin: -12px 0px 0px 30px;
+  padding: 5px 2% ;
+  text-align: justify;
+  font-size: 10px;
+    font-style: italic;}
+.text{
+    margin: 10px 0px;
+    padding: 20px 20px;
+    border-top: 2px solid rgb(150,150, 150);
+    line-height: 1.5;
+    font-size: 20px;
+}
+.imgg{
+    background-color:  rgb(44, 38, 38);
+    border-radius: 20px;
+    overflow: hidden;
+    font-size: 20px;
+    margin: 0px 3% 0px 2%;
+    display: inline-block;
+    width: 25%;
+    text-align: justify;
+    vertical-align: top;
+}
+.imgg p{
+    padding: 5px;
+    line-height: 1.5;
+}
+.mesta{
+    padding: 10px 20px; ;
+}
+
+.reviews-section {
+    border-top: 2px solid rgb(150,150, 150);
+    padding-top: 20px;
+    color: rgb(150,150, 150);
+}
+
+.reviews-slides {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.review {
+    min-width: 100%; /* Каждый отзыв занимает 100% ширины контейнера */
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.author-photo {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 15px;
+}
+
+.review-content {
+    overflow: hidden;
+}
+
+.review-text {
+    font-style: italic;
+}
+
+.excursion-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #5A67D8;
+    text-decoration: none;
+}
+
+.excursion-link:hover {
+    text-decoration: underline;
+}
+.description {
+  margin: 0px 100px 0px -30px
+}
+
+.reviews-slider {
+    display: flex;
+    /* overflow: hidden; */
+    width: 300px; /* Ширина слайдсета */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgb(44, 38, 38);
+}
+
+.review-item {
+    flex: 0 0 100%; /* Каждый элемент занимает 100% ширины контейнера */
+    padding: 10px;
+    box-sizing: border-box;
+    transition: transform 0.5s ease; /* Плавный переход для изменения положения */
+}
+
+.author-photo {
+    width: 100px; /* Ширина изображения автора */
+    border-radius: 50%; /* Круглое изображение */
+    height: 100px;
+}
+
+.author-name {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.review-date {
+    color: #666; /* Цвет для даты отзыва */
+    font-size: small;
+}
+
+.review-text {
+    margin: 10px 0; /* Отступы для текста отзыва */
+}
+
+.excursion-link {
+    display: inline-block;
+    margin-top: 10px; /* Отступ сверху */
+    color: rgb(157, 146, 127);
+    text-decoration: underline;
+    cursor: pointer; /* Указатель при наведении */
+}

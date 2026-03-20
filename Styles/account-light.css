@@ -1,0 +1,53 @@
+body{
+    font-family: arial, sans-serif;
+    background-color: rgb(103, 83, 67);
+    overflow: hidden;
+    margin: 0;
+}
+.shapka{
+    background-color: rgb(146, 119, 93);
+    font-size: 40px;
+    color: rgb(55,44, 34);
+    padding: 15px;
+}
+.shapka a {
+text-decoration: none;
+color: rgb(55,44, 34);
+}
+.polis{
+    margin-top: 10%;
+    color:rgb(55,44, 34);
+}
+.panel{
+    position: relative;
+    margin: -30px 200px 50px 200px;
+    padding: 10px 90px 300px  90px;
+    border-radius: 20px;
+    z-index: 1;
+    backdrop-filter: blur(30px)
+}
+.username{
+    font-size: 40px;
+}
+.time{
+    font-size: 30px;
+    color: rgb(55,44, 34);
+}
+.pictur img{
+    border-radius: 10px;
+}
+.pictur{
+    z-index: 2;
+    position: relative;
+}
+.fon{
+    position: absolute;
+}
+.fon2{
+    position: absolute;
+    background-color: rgb(103, 83, 67);
+    margin-top: -20%;
+}
+.fon img{
+    background-size: cover;
+}

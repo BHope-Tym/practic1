@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>
+            Регистрация
+        </title>
+         <link rel="stylesheet" href="../Styles/registration.css">
+    </head>
+    <body>
+        <div class="back">
+            <a href="../plan/Index.HTML" class="back">--</a>
+            </div>
+        <div class="register" align="center">
+            
+        <p class="reg" >
+            Регистрация
+        </p>
+
+        <form class="forms">
+            <input type="text"id="name" name="name" requred placeholder="Имя"> <br>
+            <input type="text"id="name" name="subname" requred placeholder="Фамилия"> <br>
+            <input type="email" id="email" name="email" required placeholder="Почта"><br>
+            <input type="password" id="password" name="password" required placeholder="Пароль"><br>
+            <input type="password" id="password" name="password" required placeholder="Повтор пароль"><br>
+            <div class="radio">
+    <label for="gender">Пол:</label>
+    <select id="gender" name="gender" required>
+        <option value="">Выберите пол</option>
+        <option value="male">Мужской</option>
+        <option value="female">Женский</option>
+    </select>
+      <label for="age">Возраст:</label>
+    <input type="number" id="age" name="age" min="0" required>
+    <label for="ageSelect">Возраст (другой способ):</label>
+    <select id="ageSelect" name="ageSelect" required>
+        <option value="">Выберите возраст</option>
+        <option value="20">20</option>
+        <option value="30">30</option>
+        <option value="40">40</option>
+    </select>
+    <label for="photo">Загрузить фотографию:</label>
+    <input type="file" id="photo" name="photo" accept="image/*" required>
+    <button type="button" id="addParticipantButton">Добавить участника</button>
+            <input type="text"id="name2" name="name2" requred placeholder="Имя"> <br>
+            <input type="text"id="name2" name="subname2" requred placeholder="Фамилия"> <br>
+             <label for="gender2">Пол:</label>
+    <select id="gender2" name="gender2" required>
+        <option value="">Выберите пол</option>
+        <option value="male">Мужской</option>
+        <option value="female">Женский</option>
+    </select>
+    <label for="age2">Возраст:</label>
+    <input type="number" id="age2" name="age2" min="0" required>
+    <label>
+        <input type="checkbox" id="agreement" name="agreement" required>
+        Я согласен на обработку персональных данных
+    </label>
+    </div>
+            <input type="submit" value="Авторизация" id="login">
+        </form></div>
+    </body>
+</html>

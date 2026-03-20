@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>
+            Профиль
+        </title>
+        <link rel="stylesheet" href="../Styles/account.css" id="theme-link">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="menu">
+        <div class="shapka">
+            <a href="../plan/Index.HTML" class="back">--</a>
+            <a class="prof">Профиль</a>
+            <button class="btn-t">Тема</button>
+        </div>
+        <div class="shapka">
+            <a href="#">Выйти</a>
+        </div>   </div>
+        <div class="fon"><img src="../pictures/просторы.png"  width="100%"> </div>
+        <div class="fon2"></div>
+      
+        <div class="polis" align="center">
+            <div class="pictur">
+            <img src="../pictures/кот.jpg" width="150px" height="150px"><br></div>
+            <div class="panel">
+            <p class="username">Имя пользователя</p>
+            <p class="time">Последний вход:</p></div>
+        </div>
+        <div class="tour">
+        <form>
+    <select id="tour" name="tour" value="Выберите экскурсию"required>
+        <option value="">Выбрать экскурсию</option>
+        <option value="">Выбрать экскурсию</option>
+        <option value="city-tour">Городская экскурсия</option>
+        <option value="nature-tour">Природная экскурсия</option>
+        <option value="historical-tour">Историческая экскурсия</option>
+    </select><br>
+     <label for="date">Дата:</label>
+    <input type="date" id="date" name="date" required><br>
+    <label for="time">Время:</label>
+    <select id="time" name="time" required>
+        <option value="09:00">09:00</option>
+        <option value="10:00">10:00</option>
+        <option value="11:00">11:00</option>
+        <option value="12:00">12:00</option>
+        <option value="13:00">13:00</option>
+        <option value="14:00">14:00</option>
+        <option value="15:00">15:00</option>
+        <option value="16:00">16:00</option>
+        <option value="17:00">17:00</option>
+        <option value="18:00">18:00</option>
+        <option value="19:00">19:00</option>
+        <option value="20:00">20:00</option>
+        <option value="21:00">21:00</option>
+    </select><br>
+    <label for="participants">Количество человек:</label>
+    <input type="number" id="participants" name="participants" min="1" max="100"  value="Количество Участников" required> <br>
+
+    <button type="submit">Записаться на экскурсию</button>
+</form>
+        </div>
+    </body>
+    <script src="../JS/account.js"></script>
+</html>
