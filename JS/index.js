@@ -164,9 +164,9 @@ slider1s.ondragstart = function () {
 const btn =document.querySelector(".btn-t");
 const theme=document.querySelector("#theme-link");
 btn.addEventListener("click", function(){
-    if(theme.getAttribute("href") == "../Styles/index.css"){
-        theme.href="../Styles/index-light.css";
+    if(theme.getAttribute("href") == "Styles/index.css"){
+        theme.href="Styles/index-light.css";
     } else {
-        theme.href="../Styles/index.css";
+        theme.href="Styles/index.css";
     }
 });

@@ -233,17 +233,12 @@ margin-top: 1%;}
 
 
 .tourpanel{
-    /* width: 30%;
-    height: 40%; */
     background-color: rgb(44, 38, 38);
-    /* display: flex; */
     overflow: hidden;
-    /* position: relative;  */
     display: inline-block;
     width: 30%;
     height: 60%;
     vertical-align: top;
-      /* text-align: justify; */
        border-radius: 7px;
        margin-left: 2%;
 }
@@ -254,7 +249,6 @@ margin-top: 1%;}
         margin-bottom: 2%;
     }
     .tourpanel img{
-        /* height: 60%; */
          width: 40%;
 
     }
@@ -326,7 +320,6 @@ margin-top: 1%;}
 -webkit-box-shadow: 1px 1px 9px 7px rgba(0,0,0,0.31);
 -moz-box-shadow: 1px 1px 9px 7px rgba(0,0,0,0.31);
     text-align: center;
-    /* display: flex; */
     align-items: center;
 }
 .news input{
