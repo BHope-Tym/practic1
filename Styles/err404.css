@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(14, 14, 14);
+    background-color:#e0e0e0;
     font-family: arial, sans-serif;
     overflow: hidden;
 }
@@ -8,14 +8,14 @@ body{
     position: absolute;
     margin: 40px 600px 500px 500px;
     font-size: 150px;
-    color: rgb(150,150, 150);
+    color: rgb(29, 29, 29);
 }
 .error{
     margin: 200px 200px 500px 800px;
-    color: rgb(150,150, 150);
+    color: rgb(29, 29, 29);
 }
 .error a{
-    color: rgb(150,150, 150);
+    color: rgb(29, 29, 29);
     text-decoration: none;
     font-size: 20px;
 }

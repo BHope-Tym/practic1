@@ -4,37 +4,37 @@ body {
        font-family: Arial, sans-serif;
         margin-left:  20%;
         margin-right: 20%;
-        background-color:rgb(14, 14, 14);
-        color: rgb(150,150, 150);;
+        background-color:#e0e0e0;
+        color:  rgb(29, 29, 29);
         }
 .back{
-  background-color: rgb(44, 38, 38);
+  background-color: #e0e0e0;
     font-size: 40px;
-    color: rgb(150,150, 150);
+    color: rgb(29, 29, 29);
     padding: 15px;
 }
 .reg{
   font-size: 40px;
 }
 select:hover{
-  background-color: rgb(32, 28, 28);
-  color: rgb(150,150, 150);
+  background-color: #e0e0e0;
+  color:  rgb(29, 29, 29);
 }
 select{
-  color: rgb(150,150, 150);
+  color: rgb(29, 29, 29);
 }
 option{
-  color: rgb(150,150, 150);
+  color:  rgb(29, 29, 29);
 }
 option:hover{
-  background-color: rgb(32, 28, 28);
-  color: rgb(150,150, 150);
+  background-color: #e0e0e0;
+  color:  rgb(29, 29, 29);
 }
 input:hover{
-  background-color: rgb(32, 28, 28);
+  background-color: #e0e0e0;
 }
 form {
-  background: rgb(44, 38, 38);
+  background: #e0e0e0;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -48,9 +48,9 @@ input, select {
     padding: 8px;
     margin-bottom: 15px;
     border-radius: 4px;
-    border-color: rgb(14, 14, 14); 
+    border-color:#222222; 
     border-style: solid;
-    background-color: rgb(44, 38, 38);
+    background-color:#e0e0e0;
     font-size: 30px;
   }
 button {
@@ -62,7 +62,7 @@ button {
     cursor: pointer;
   }
 button:hover {
-    background-color: #383635;
+    background-color:#e0e0e0;
 }
 .participant-group {
     margin: 20px 0;
@@ -77,5 +77,5 @@ button:hover {
     background-color: #c82333;
 }
 #photo{
-    background-color: rgb(44, 38, 38);
+    background-color: #e0e0e0;
 }
